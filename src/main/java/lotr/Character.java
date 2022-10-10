@@ -10,9 +10,6 @@ public abstract class Character {
     public void kick(Character c){
 
     }
-    boolean isAlive() {
-        return False;
-    }
 
     public int getPower() {
         return power;
