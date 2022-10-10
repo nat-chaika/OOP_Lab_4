@@ -23,12 +23,12 @@ Implement the heroes game in text mode
 - class Elf 
    - attributes: int power=10, int hp=10
    - methods: void kick(Character c) { kill everybody weaker than him, otherwise decrease the power of character by 1 }
-- class King 
+- class lotr.King 
    - attributes: int power=from 5 to 15, int hp=from 5 to 15 
    - methods: void kick(Character c) { decrease number of hp of the enemy by random number which will be in the range of his power }
 - class Knight 
    - attributes: int power=from 2 to 12, int hp=from 2 to 12
-   - methods: void kick(Character c) { like King }
+   - methods: void kick(Character c) { like lotr.King }
 - class CharacterFactory 
    - methods: Character createCharacter() { returns random instance of any existing character } 
 - class GameManager
