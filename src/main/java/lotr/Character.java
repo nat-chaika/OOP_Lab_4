@@ -24,7 +24,9 @@ public abstract class Character {
     }
 
     public void setHp(int hp) {
-        this.hp = hp;
+        if (hp > 0){
+            this.hp = hp;}
+        else {this.hp = 0;}
     }
     @Override
     public String toString() {
